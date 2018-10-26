@@ -24,7 +24,7 @@
       </span>
 
       {% if project.image %}
-      <img src="{{ site.baseurl }}/assets/images/{{ project.image }}"/>
+      <img src="{{ project.image }}"/>
       <div><a href="{{ project.link }}">Website: {{ project.link }}</a></div>
       <div class="publication-conference">{{ project.publication }}<a href="{{ project.pb_link }}" style="color:blue"> [link]</a></div>
       {% endif %}
