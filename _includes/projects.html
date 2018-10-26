@@ -19,12 +19,12 @@
   {% for project in projects.projects %}
     <div class="item">
 
-      <span class="project-title">
+      <div><h2><span class="project-title">
         <a href="{{ project.link }}">{{ project.title }}</a>
-      </span>
+      </span></h2></div>
 
       {% if project.image %}
-      <img src="{{ project.image }}" width="100"/>
+      <div><img src="{{ project.image }}" width="100"/></div>
       <div><a href="{{ project.link }}">Website: {{ project.link }}</a></div>
       <div class="publication-conference">{{ project.publication }}<a href="{{ project.pb_link }}" style="color:blue"> [link]</a></div>
       {% endif %}
