@@ -1,0 +1,30 @@
+{% assign books = site.data.data.books %}
+{% if books %}
+<section class="section books-section">
+
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-file-alt fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ books.title }}
+  </h2>
+
+  {% if books.intro %}
+  <div class="intro">
+    {{ books.intro | markdownify }}
+  </div><!--//intro-->
+  {% endif %}
+
+  {% for book in books.books %}
+  <div class="item">
+    <p><div class="publication-title"><i class="fas fa-bookmark"></i> {{ book.title }}</div>
+    <div class="publication-authors">{{ book.authors }}</div>
+    <div class="publication-conference">ISBN: <a href="{{ book.link }}" style="color:blue">{{ book.ISBN }}</a>, {{ book.time }}</div></p>
+    
+
+  </div><!--//item-->
+  {% endfor %}
+
+</section><!--//section-->
+{% endif %}

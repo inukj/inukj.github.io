@@ -1,0 +1,37 @@
+{% assign sidebar = site.data.data.sidebar %}
+<div class="sidebar-wrapper">
+
+  <div class="profile-container">
+
+    {% if sidebar.name %}
+    <img class="avatar" src="{{ site.baseurl }}/assets/images/{{ sidebar.avatar }}" alt="profile picture" />
+    {% endif %}
+
+    {% if sidebar.name %}
+    <h1 class="name">{{ sidebar.name }}</h1>
+    {% endif %}
+
+    {% if sidebar.tagline %}
+    <h3 class="tagline">{{ sidebar.tagline }}</h3>
+    {% endif %}
+
+  </div><!--//profile-container-->
+
+  {% include contact.html %}
+
+  <hr>
+  <div class="contact-container container-block">
+    <ul class="list-unstyled contact-list">
+ 
+      <li class="Projects"><i class="fas fa-angle-right"></i>
+        <a href="patents_main.html">Projects</a>        
+      </li>
+
+      <li class="book-patents"><i class="fas fa-angle-right"></i>
+        <a href="books_patents_main.html">Books & Patents</a>
+      </li>
+
+    </ul>
+  </div>
+
+</div><!--//sidebar-wrapper-->

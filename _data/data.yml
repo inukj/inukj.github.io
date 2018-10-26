@@ -1,0 +1,343 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output. 
+#
+
+sidebar:
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: False # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Inuk Jung
+    tagline: "Bioinformatician, Ph.D."
+    avatar: inukj_profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    affiliation_1: "Bio & Health Informatics Lab"
+    affiliation_2: "Bioinformatics Institute"
+    address: "Seoul National University, 1, Gwanak-ro, Gwanak-gu, Seoul, Korea Building 220, Room 651"
+    email: "inuk.jung[at]snu.ac.kr"
+    phone: +82-2-880-2860
+    website: inukj.github.io #do not add http://
+    github: inukj
+    gitlab: bhi-kimlab.github.io
+    #linkedin: alandoe
+    #bitbucket:
+    #twitter: '@webjeda'
+    #stack-overflow: # Number/Username, e.g. 123456/alandoe
+    #codewars:
+
+
+career-profile:
+    title: Profile
+    summary: |
+      I'm currently a postdoctoral Research Fellow at Seoul National Univerisity and affiliated with Bio & Health Informatics Lab. and Bioinformatics Institute. I received a Ph.D. degree in Bioinformatics at the Life Science department in 2017. My research area focuses on developing machine learning algorithms and tools for analyzing high throughput next generation sequencing data from various organisms, such as, rice, ginseng, chicken, mouse and human.
+
+education:
+    - degree: Ph.D. in Bioinformatics
+      university: Life Science department, Seoul National University, Seoul, Republic of Korea
+      time: 2012 - 2017
+      details: |
+        Thesis: "Clustering methods and approaches for the integrated analysis of protein coding and non-coding transcripts"
+
+        Main research areas:
+          - Machine learning
+          - Big data mining
+          - Computational interpretation of biological data
+
+    - degree: MSc in Computer Science
+      university: Computer Science department, Yonsei University, Seoul, Republic of Korea
+      time: 2005 - 2007
+      details: |
+        Thesis: "RMon: A Proactive Sensor Network Management Framework for the RETOS Applications"
+
+        Main research areas:
+          - Embedded systems and operating systems for sensor networks
+          - Sensor network monitoring algorithms and tools
+
+    - degree: BSc in Computer Science
+      university: University of Canterbury, Christchurch, New Zealand
+      time: 2001 - 2004
+      details: |
+        Received Bachelor of Science and Post Graduate Diploma in Computer Science at the Computer Science department.
+
+awards:
+    - title: Excellent Dissertation Award
+      organization: Life Science department, Seoul National University
+      time: Aug. 2017
+      details: |
+        Thesis title: "Clustering methods and approaches for the integrated analysis of protein coding and non-coding transcripts"
+
+    - title: Outstanding Paper Award
+      organization: 한국생명정보학회, Korean Society of Bioinformatics (KSBi)
+      time: Nov. 2017
+      details: |
+        Paper title: "TimesVector: a vectorized clustering approach to the analysis of time series transcriptome data from multiple phenotypes."
+
+experiences:
+    - role: Part time Lecturer
+      time: 2018 - Present
+      company: "Bioinformatics, Life Science Department, Seoul National University"
+      details: |
+        I'm lecturing the "Bioinformatics 2" course that covers basic to advanced techniques in bioinformatics.
+
+    - role: Postdocotral Research Fellow
+      time: 2017 - Present
+      company: "Bioinformatics Institute and Bio & Health Informatics Lab."
+      details: |
+        As a research fellow with a personal grant, my research focuses on data mining large scale next generation sequencing data.
+
+        Main research topics are:
+          - Large scale multi-omics data integration and analysis of breast cancer data
+          - CRISPR-CAS9 data analysis
+          - Time-series data analysis
+
+    - role: Assistant Research Engineer
+      time: 2007 - 2011
+      company: "LG Electronics, Radio Protocol Standard team"
+      details: |
+        Research Engineer at LG Electronics, Anyang, Korea
+          - Research and development of cellular technologies for standard bodies for WiMAX 2.0 (i.e. IEEE802.16m) and LTE Rel. 10. The standard technologies that I’ve developed are in the domains of Layer 1 and 2 (PHY/MAC). Main research and development topics are mobility management and security provision. 
+          - Acted as rapporteur lead for the IEEE802.16 TGm (http://www.ieee802.org/16/tgm/) Handover RG (Rapporteur Group), 2008-2009
+          - Acted as chair for the IEEE802.16 TGm Handover Ad-hoc group, 2009-2010
+          - Acted as chair for the WiMAX 2.0 TWG Handover/Security Ad-hoc group for profiling standard technologies, 2010–2011
+          - Acted as chair and editor for IEEE802.16 PPC (Project Planning Committee, http://wirelessman.org/ppc/index.html) on Hierarchical Networks, 2010–2011
+
+# projects:
+#     title: Projects
+#     intro: >
+#       Publications listed in chronological order
+
+#     assignments:
+#       - title: HTRgene: Integrating Multiple Heterogeneous Time-series Data to Investigate Cold and Heat Stress Response Signaling Genes in Arabidopsis
+#         # link: "#hook"
+#         # tagline: "A responsive website template designed to help startups promote, market and sell their products."
+#       - authors: "Hongryul Ahn, Inuk Jung, Heejoon Chae, Dongwon Kang, Sun Kim and Woosuk Jung"
+
+#       - title: DevStudio
+#         link: "#"
+#         tagline: "A responsive website template designed to help web developers/designers market their services."
+
+#       - title: Tempo
+#         link: "#"
+#         tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+#       - title: Atom
+#         link: "#"
+#         tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+#       - title: Delta
+#         link: "#"
+#         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+publications:
+    title: Publications
+    intro: |
+      Publications listed in chronological order
+
+    papers:
+      - title: "THTRgene: Integrating Multiple Heterogeneous Time-series Data to Investigate Cold and Heat Stress Response Signaling Genes in Arabidopsis"
+        authors: "Hongryul Ahn, Inuk Jung, Heejoon Chae, Dongwon Kang, Sun Kim and Woosuk Jung"
+        conference: "IEEE International Conference on Bioinformatics and Biomedicine (BIBM), 2018 (Accepted)"
+        #link: ""
+
+      - title: "Comprehensive and critical evaluation of individualized pathway activity measurement tools on pan-cancer data"
+        authors: "Sangsoo Lim, Sangseon Lee, Inuk Jung, Sungmin Rhee, Sun Kim"
+        conference: "Briefings in Bioinformatics, 2018 (Accepted and in press)"
+        #link: ""
+
+      - title: "The mRNA and miRNA transcriptomic landscape of Panax Ginseng under the high ambient temperature"
+        authors: "Inuk Jung, Hyejin Kang, Jan Uk Kim, Hyeonsook Chang, Sun Kim and Woosuk Jung"
+        conference: "BMC Systems Biology, 12(Suppl 2):27, 2018"
+        link: "https://bmcsystbiol.biomedcentral.com/articles/10.1186/s12918-018-0548-z"
+
+      - title: "TimesVector: a vectorized clustering approach to the analysis of time series transcriptome data from multiple phenotypes."
+        authors: "Inuk Jung, Kyuri Jo, Hyejin Kang, Hongryul Ahn, Youngjae Yu, Sun Kim"
+        conference: "Bioinformatics, 33(23), 2017"
+        link: "https://academic.oup.com/bioinformatics/article/33/23/3827/2918135"
+
+      # - title: "Clustering methods and approaches for the integrated analysis of protein coding and non-coding transcripts"
+      #   authors: "Inuk Jung"
+      #   conference: "Ph.D. Thesis, 2017"
+
+      - title: "Clustering and evolutionary analysis of small RNAs identify regulatory siRNA clusters induced under drought stress in rice"
+        authors: "Inuk Jung, Hongryul Ahn, Seon-Ju Shin, Jukon Kim, Hawk-Bin Kwon, Woosuk Jung and Sun Kim"
+        conference: "BMC Systems Biology, 10(Suppl 4):115, 2016"
+        link: "https://bmcsystbiol.biomedcentral.com/articles/10.1186/s12918-016-0355-3"
+
+      - title: "Transcriptional Network Analysis Reveals Drought Resistance Mechanisms of AP2/ERF Transgenic Rice"
+        authors: "Hongryul Ahn, Inuk Jung, Seon-Ju Shin, Jinwoo Park, Sungmin Rhee, Ju-Kon Kim, Woosuk Jung, Hawk-Bin Kwon, Sun Kim"
+        conference: "Frontiers in Plant Science, 8:1044, 2016"
+        link: "https://www.frontiersin.org/articles/10.3389/fpls.2017.01044/full"
+
+      - title: "Novel drought-responsive regulatory coding and non-coding transcripts from Oryza Sativa L."
+        authors: "Seon-Ju Shin, Hongryul Ahn, Inuk Jung, Sungmin Rhee, Sun Kim, Hawk-Bin Kwon"
+        conference: "Genes & Genomics, 38(10), 2016"
+        link: "https://link.springer.com/article/10.1007/s13258-016-0439-x"
+
+      - title: "Influence maximization in time bounded network identifies transcription factors regulating perturbed pathways"
+        authors: "Kyuri Jo, Inuk Jung, Ji Hwan Moon and Sun Kim"
+        conference: "Bioinformatics, 32(12), 2016"
+        link: "https://academic.oup.com/bioinformatics/article/32/12/i128/2288870"
+
+      - title: "Spherical vector clustering 기법과 Support Vector Machine을 이용한 한발관련 표현형이 다른 벼의 복수 시계열 Next Generation Sequencing 테이터의 분석"
+        authors: "강혜진, 정인욱, 정우석, 김선"
+        conference: "한국정보과학회 2015년 동계학술발표회 논문집, 2015(12), 2015"
+        link: "http://www.dbpia.co.kr/Journal/ArticleDetail/NODE06602482?TotalCount=0&Seq=9&isIdentifyAuthor=1&Collection=0&isFullText=0&specificParam=0&SearchMethod=0&Page=1&PageSize=20"
+
+      - title: "piClust: A density based piRNA clustering algorithm"
+        authors: "Inuk Jung, Jong Chan Park and Sun Kim"
+        conference: "Computational Biology and Chemistry, 50, 2014"
+        link: "https://www.sciencedirect.com/science/article/pii/S1476927114000103?via%3Dihub"
+
+      - title: "BioVLAB- Cloud-based Bioinformatics Analysis Workbench"
+        authors: "서석준, 오민식, 정인욱, 채희준, 김선"
+        conference: "한국정보과학회, 정보과학회논문지, 31(3), 2013"
+        link: "http://www.dbpia.co.kr/Journal/ArticleDetail/NODE02112438?TotalCount=941&Seq=13&q=(%5B%EC%83%9D%EB%AC%BC%20%EC%A0%95%EB%B3%B4%20%3B%20%C2%A7coldb%C2%A72%C2%A751%C2%A73%5D)&searchWord=%EC%A0%84%EC%B2%B4%3D%5E%24%EC%83%9D%EB%AC%BC%20%EC%A0%95%EB%B3%B4%20%3B%20%5E*&searchWordCondition=%EC%9E%90%EB%A3%8C%EC%9C%A0%ED%98%95%3D%5E%24%EC%A0%84%EC%B2%B4%5E*&Multimedia=0&isIdentifyAuthor=0&Collection=0&isFullText=0&specificParam=0&SearchMethod=2&SearchOper=System.Int32%5B%5D&SearchKeyword=System.String%5B%5D&SearchOption=System.Int32%5B%5D&Category=002008&PublishDate=11&Sort=1&SortType=desc&Page=1&PageSize=20"
+
+      - title: "Bio and health informatics meets cloud : BioVLab as an example"
+        authors: "Heejoon Chae, Inuk Jung, Hyungro Lee, Suresh Marru, Seong-Whan Lee and Sun Kim"
+        conference: "Health Information Science and Systems, 1:6, 2013"
+        link: "https://link.springer.com/article/10.1186%2F2047-2501-1-6"
+
+      - title: "Advanced handover schemes in IMT-advanced systems"
+        authors: "Ronny Yongho Kim, Inuk Jung, Xiangying Yang, Chao-Chin Chou"
+        conference: "IEEE COMMUNICATIONS MAGAZINE, 48:8, 2010"
+        link: "https://ieeexplore.ieee.org/document/5534590"
+
+      - title: "An Improved Cross-Layering Design for IPv6 Fast Handover with IEEE 802.16m Entry Before Break Handover"
+        authors: "Ronny Yongho Kim, Inuk Jung, Young Yong Kim"
+        conference: "IEICE TRANSACTIONS ON FUNDAMENTALS OF ELECTRONICS COMMUNICATIONS AND COMPUTER SCIENCES, E93A:8, 2010"
+        link: "https://www.jstage.jst.go.jp/article/transfun/E93.A/8/E93.A_8_1524/_article"
+
+      - title: "RETOS: Resilient, Expandable, and Threaded Operating System for Wireless Sensor Networks"
+        authors: "Hojung Cha, Sukwon Choi, Inuk Jung, Hyoseung Kim, Hyojeong Shin, Jaehyun Yoo, Chanmin Yoon"
+        conference: "6th International Symposium on Information Processing in Sensor Networks (IPSN), 2007"
+        link: "https://ieeexplore.ieee.org/document/4379674"
+
+      - title: "RMTool: Component-Based Network Management System for Wireless Sensor Networks"
+        authors: "Inuk Jung, Hojung Cha"
+        conference: "4th IEEE Consumer Communications and Networking Conference (CCNC), 2007"
+        link: "https://ieeexplore.ieee.org/document/4199214"
+
+      # - title: "RMon: A Proactive Sensor Network Management Framework for the RETOS Applications"
+      #   authors: "Inuk Jung"
+      #   conference: "MSc Thesis, 2007"
+
+      - title: "GUI 기반의 센서 네트워크 관리 도구"
+        authors: "Inuk Jung, Hojung Cha"
+        conference: "한국정보과학회 2006 가을 학술발표논문집, 33:2(B), 2006"
+        link: "http://www.dbpia.co.kr/Journal/ArticleDetail/NODE00768479#"
+
+
+books:
+    title: Books
+
+    books:
+      - title: "IEEE Standard for WirelessMAN-Advanced Air Interface for Broadband Wireless Access Systems"
+        authors: "IEEE Computer Society and the IEEE Microwave Theory and Techniques Society"
+        ISBN: 978-0-73-817287-3
+        time: 2012
+        link: "https://ieeexplore.ieee.org/document/6297413"
+
+
+
+patents:
+    title: Patents
+    intro: |
+      Patents listed in chronological order
+
+    patents:
+      - title: "Method and apparatus for performing handover in consideration of authentication procedure"
+        authors: "Inuk Jung, Yongho Kim, Kiseon Ryu"
+        location: "US registered"
+        number: 9351161
+        time: 2016
+        link: "http://patents.com/us-9351161.html"
+
+      - title: "Method and apparatus for performing handover in consideration of authentication procedure"
+        authors: "Inuk Jung, Yongho Kim, Kiseon Ryu"
+        location: "US registered"
+        number: 9173094
+        time: 2015
+        link: "http://patents.com/us-9173094.html"
+
+      - title: "Traffic encryption key management for machine to machine multicast group"
+        authors: "Inuk Jung, Jinsam Kwak, Kiseon Ryu, Wookbong Lee"
+        location: "US registered"
+        number: 9161216
+        time: 2015
+        link: "http://patents.com/us-9161216.html"
+
+      - title: "Method for performing handover in broadband wireless access system"
+        authors: "Inuk Jung, Jin Lee, Giwon Park"
+        location: "US registered"
+        number: 9125125
+        time: 2015
+        link: "http://patents.com/us-9125125.html"
+
+      - title: "Method and apparatus for efficient zone switch operation in a broadband wireless access system"
+        authors: "Inuk Jung, Jinsam Kwak, Kiseon Ryu, Wookbong Lee"
+        location: "US registered"
+        number: 9042896
+        time: 2015
+        link: "http://patents.com/us-9042896.html"
+
+      - title: "Method for controlling uplink power in a broadband wireless access system"
+        authors: "Inuk Jung, Jinsam Kwak, Kiseon Ryu, Wookbong Lee"
+        location: "US registered"
+        number: 9026116
+        time: 2015
+        link: "http://patents.com/us-9026116.html"
+
+      - title: "Method and apparatus for initial access to a network in a femto system"
+        authors: "Inuk Jung, Jin Lee, Yongho Kim, Kiseon Ryu"
+        location: "US registered"
+        number: 8958367
+        time: 2015
+        link: "http://patents.com/us-8958367.html"
+
+      - title: "Method and apparatus for transmitting a broadcasting service in a system that supports machine to machine communications"
+        authors: "Inuk Jung, Kiseon Ryu"
+        location: "US registered"
+        number: 8942149
+        time: 2015
+        link: "http://patents.com/us-8942149.html"
+
+      - title: "Method of changing a zone in a broadband wireless access system"
+        authors: "Inuk Jung, Jinsam Kwak, Kiseon Ryu, Wookbong Lee"
+        location: "US registered"
+        number: 8929340
+        time: 2015
+        link: "http://patents.com/us-8929340.html"
+
+      - title: "Apparatus and method for updating control information of a target base station during handover operation in a broadband wireless communication system"
+        authors: "Inuk Jung, Kiseon Ryu, Jinsam Kwak"
+        location: "US registered"
+        number: 8885606
+        time: 2014
+        link: "http://patents.com/us-8885606.html"
+
+skills:
+    title: Skills &amp; Proficiency
+
+    toolset:
+      - name: C/C++
+        level: 100%
+
+      - name: Python
+        level: 100%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: R
+        level: 80%
+
+      - name: Matlab
+        level: 60%
+
+      - name: Sketch & Photoshop
+        level: 60%
+
+# footer: >
+#     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>

@@ -1,0 +1,84 @@
+<div class="contact-container container-block">
+  <ul class="list-unstyled contact-list">
+
+    {% if sidebar.email %}
+    <li class="email"><i class="fas fa-envelope"></i>
+      <a href="mailto:{{ sidebar.email }}">{{ sidebar.email }}</a>
+    </li>
+    {% endif %}
+
+    {% if sidebar.phone %}
+    <li class="phone"><i class="fas fa-phone"></i>
+      <a href="tel:{{ sidebar.phone }}">{{ sidebar.phone }}</a>
+    </li>
+    {% endif %}
+  
+
+    {% if sidebar.affiliation_1 %}
+    <li class="affiliation_1"><i class="far fa-building"></i>
+      <a href="https://bhi-kimlab.github.io/" target="_blank">{{ sidebar.affiliation_1 }}</a>
+    </li>
+    {% endif %}
+
+    {% if sidebar.affiliation_2 %}
+    <li class="affiliation_2"><i class="far fa-building"></i>
+      <a href="http://nbiosnu.org/" target="_blank">{{ sidebar.affiliation_2 }}</a>
+    </li>
+    {% endif %}
+
+    {% if sidebar.address %}
+    <li class="address"><i class="fas fa-map-marker-alt"></i>
+      <a href="https://www.google.com/maps/place/37%C2%B027'52.5%22N+126%C2%B057'14.7%22E/@37.4645971,126.9529897,18z/data=!3m1!4b1!4m13!1m6!3m5!1s0x357c9fe8a0a1e2a5:0xa1e2eebc04f0c5e7!2z7ISc7Jq464yA7ZWZ6rWQ!8m2!3d37.459882!4d126.9519053!3m5!1s0x0:0x0!7e2!8m2!3d37.4645955!4d126.9540841" target="_blank">{{ sidebar.address }}</a>
+    </li>
+    {% endif %}
+
+    {% if sidebar.website %}
+    <li class="website"><i class="fas fa-globe-americas"></i>
+      <a href="http://{{ sidebar.website }}" target="_blank">{{ sidebar.website }}</a>
+    </li>
+    {% endif %}
+
+    {% if sidebar.linkedin %}
+    <li class="linkedin"><i class="fab fa-linkedin"></i>
+      <a href="https://linkedin.com/in/{{ sidebar.linkedin }}" target="_blank">{{ sidebar.linkedin }}</a>
+    </li>
+    {% endif %}
+
+    {% if sidebar.github %}
+    <li class="github"><i class="fab fa-github"></i>
+      <a href="http://github.com/{{ sidebar.github }}" target="_blank">{{ sidebar.github }}</a>
+    </li>
+    {% endif %}
+
+    {% if sidebar.gitlab %}
+    <li class="gitlab"><i class="fab fa-gitlab"></i>
+      <a href="http://gitlab.com/{{ sidebar.gitlab }}" target="_blank">{{ sidebar.gitlab }}</a>
+    </li>
+    {% endif %}
+
+    {% if sidebar.bitbucket %}
+    <li class="bitbucket"><i class="fab fa-bitbucket"></i>
+      <a href="http://bitbucket.com/{{ sidebar.bitbucket }}" target="_blank">{{ sidebar.bitbucket }}</a>
+    </li>
+    {% endif %}
+
+    {% if sidebar.twitter %}
+    <li class="twitter"><i class="fab fa-twitter"></i>
+      <a href="https://twitter.com/{{ sidebar.twitter }}" target="_blank">{{ sidebar.twitter }}</a>
+    </li>
+    {% endif %}
+
+    {% if sidebar.stack-overflow %}
+    <li class="stack-overflow"><i class="fab fa-stack-overflow"></i>
+      <a href="https://stackoverflow.com/users/{{ sidebar.stack-overflow }}" target="_blank">{{ sidebar.stack-overflow }}</a>
+    </li>
+    {% endif %}
+
+    {% if sidebar.codewars %}
+    <li class="codewars"><i class="fas fa-code"></i>
+      <a href="https://www.codewars.com/users/{{ sidebar.codewars }}/completed_solutions" target="_blank">{{ sidebar.codewars }}</a>
+    </li>
+    {% endif %}
+
+  </ul>
+</div><!--//contact-container-->
