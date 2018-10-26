@@ -22,7 +22,7 @@
     <div class="publication-authors">{{ publication.authors }}</div>
 
     {% if publication.link %}
-    <div class="publication-conference">{{ publication.conference }}<a href="{{ publication.link}}" style="color:blue"> [link]</a></div>
+    <div class="publication-conference">{{ publication.conference }}<a href="{{ publication.link}}" style="color:blue" target="_blank"> [link]</a></div>
     {% else %}
     <div class="publication-conference">{{ publication.conference }}</div>
     {% endif %}
