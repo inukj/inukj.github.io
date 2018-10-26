@@ -102,32 +102,18 @@ experiences:
           - Acted as chair for the WiMAX 2.0 TWG Handover/Security Ad-hoc group for profiling standard technologies, 2010–2011
           - Acted as chair and editor for IEEE802.16 PPC (Project Planning Committee, http://wirelessman.org/ppc/index.html) on Hierarchical Networks, 2010–2011
 
-# projects:
-#     title: Projects
-#     intro: >
-#       Publications listed in chronological order
+projects:
+    title: Projects
+    intro: >
 
-#     assignments:
-#       - title: HTRgene: Integrating Multiple Heterogeneous Time-series Data to Investigate Cold and Heat Stress Response Signaling Genes in Arabidopsis
-#         # link: "#hook"
-#         # tagline: "A responsive website template designed to help startups promote, market and sell their products."
-#       - authors: "Hongryul Ahn, Inuk Jung, Heejoon Chae, Dongwon Kang, Sun Kim and Woosuk Jung"
+    projects:
+      - title: TimesVector
+        image: "assets/images/project_timesvector.png"
+        link: "http://epigenomics.snu.ac.kr/TimesVector/"
+        publication: "Bioinformatics, 33(23), 2017"
+        pb_link: "https://academic.oup.com/bioinformatics/article/33/23/3827/2918135"
+        tagline: "TimesVector is a triclustering tool for clustering time-series data that comprises multiple conditions, or phenotypes. It identifies gene clusters that exhibit distinctly similar or different gene expression patterns among the comparing sample conditions. For example, for a time-series data set of five different strains of yeast, each data sampled at 3 time points, TimesVector will search for gene clusters where a specific strain shows a distinctively different gene expression pattern from the others."
 
-#       - title: DevStudio
-#         link: "#"
-#         tagline: "A responsive website template designed to help web developers/designers market their services."
-
-#       - title: Tempo
-#         link: "#"
-#         tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-#       - title: Atom
-#         link: "#"
-#         tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-#       - title: Delta
-#         link: "#"
-#         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 publications:
     title: Publications
