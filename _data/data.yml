@@ -116,7 +116,6 @@ projects:
     projects:
       - title: TimesVector
         image: "assets/images/project_timesvector.png"
-        link: "http://epigenomics.snu.ac.kr/TimesVector/"
         publication: "Bioinformatics, 33(23), 2017"
         pb_link: "https://academic.oup.com/bioinformatics/article/33/23/3827/2918135"
         tagline: "TimesVector is a triclustering tool for clustering time-series data that comprises multiple conditions, or phenotypes. It identifies gene clusters that exhibit distinctly similar or different gene expression patterns among the comparing sample conditions. For example, for a time-series data set of five different strains of yeast, each data sampled at 3 time points, TimesVector will search for gene clusters where a specific strain shows a distinctively different gene expression pattern from the others."
@@ -147,6 +146,7 @@ publications:
         authors: "Inuk Jung, Kyuri Jo, Hyejin Kang, Hongryul Ahn, Youngjae Yu, Sun Kim"
         conference: "Bioinformatics, 33(23), 2017"
         link: "https://academic.oup.com/bioinformatics/article/33/23/3827/2918135"
+        website: "http://epigenomics.snu.ac.kr/TimesVector/"
 
       # - title: "Clustering methods and approaches for the integrated analysis of protein coding and non-coding transcripts"
       #   authors: "Inuk Jung"
@@ -181,6 +181,7 @@ publications:
         authors: "Inuk Jung, Jong Chan Park and Sun Kim"
         conference: "Computational Biology and Chemistry, 50, 2014"
         link: "https://www.sciencedirect.com/science/article/pii/S1476927114000103?via%3Dihub"
+        website: "http://epigenomics.snu.ac.kr/piclustweb/"
 
       - title: "BioVLAB- Cloud-based Bioinformatics Analysis Workbench"
         authors: "서석준, 오민식, 정인욱, 채희준, 김선"
