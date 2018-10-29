@@ -30,7 +30,7 @@ sidebar:
 career-profile:
     title: Profile
     summary: |
-      I'm currently a postdoctoral Research Fellow at Seoul National Univerisity and affiliated with Bio & Health Informatics Lab. and Bioinformatics Institute. I received a Ph.D. degree in Bioinformatics at the Life Science department in 2017. My research area focuses on developing machine learning algorithms and tools for analyzing high throughput next generation sequencing data from various organisms, such as, rice, ginseng, chicken, mouse and human.
+      I'm currently a postdoctoral Research Fellow at Seoul National Univerisity and affiliated with <a href="https://bhi-kimlab.github.io/" style="color:blue" target="_blank">Bio & Health Informatics Lab</a> and <a href="http://nbiosnu.org/" style="color:blue" target="_blank">Bioinformatics Institute</a>. I received a Ph.D. degree in Bioinformatics at the Life Science department in 2017. My research area focuses on developing machine learning algorithms and tools for analyzing high throughput next generation sequencing data from various organisms, such as, rice, ginseng, chicken, mouse and human.
 
 education:
     - degree: Ph.D. in Bioinformatics
