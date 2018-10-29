@@ -38,6 +38,8 @@ education:
       time: 2012 - 2017
       details: |
         Thesis: "Clustering methods and approaches for the integrated analysis of protein coding and non-coding transcripts"
+        
+        Advisor: Sun Kim
 
         Main research areas:
           - Machine learning
@@ -49,6 +51,8 @@ education:
       time: 2005 - 2007
       details: |
         Thesis: "RMon: A Proactive Sensor Network Management Framework for the RETOS Applications"
+        
+        Advisor: Hojung Cha
 
         Main research areas:
           - Embedded systems and operating systems for sensor networks
