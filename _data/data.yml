@@ -95,15 +95,15 @@ experiences:
       time: 2018 - 2019
       company: "Bioinformatics, Life Science Department, Seoul National University"
       details: |
-        I've lectured the "Bioinformatics 2" course that covers basic to advanced techniques in bioinformatics.
+        I'm lecturing the "Bioinformatics 2" course that covers basic to advanced techniques in bioinformatics.
 
     - role: Postdocotral Research Fellow
       time: 2017 - 2019
       company: "Bioinformatics Institute and Bio & Health Informatics Lab."
       details: |
-        As a research fellow with a personal grant, my research focused on data mining large scale next generation sequencing data.
+        As a research fellow with a personal grant, my research focuses on data mining large scale next generation sequencing data.
 
-        Main research topics were:
+        Main research topics are:
           - Large scale multi-omics data integration and analysis of breast cancer data
           - CRISPR-CAS9 data analysis
           - Time-series data analysis
