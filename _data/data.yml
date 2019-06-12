@@ -12,14 +12,13 @@ sidebar:
     avatar: inukj_profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    affiliation_1: "Bio & Health Informatics Lab"
-    affiliation_2: "Bioinformatics Institute"
-    address: "Seoul National University, 1, Gwanak-ro, Gwanak-gu, Seoul, Korea Building 220, Room 651"
-    email: "inukjung[at]snu.ac.kr"
-    phone: +82-2-880-2860
+    affiliation_1: "Kyungpook National Univeristy, Computer Science and Engineering"
+    address: "Kyungpook National Univeristy, IT9-531"
+    email: "inukjung[at]knu.ac.kr"
+    phone: +82-53-950-5552
     website: inukj.github.io #do not add http://
     github: inukj
-    gitlab: bhi-kimlab.github.io
+    #gitlab: bhi-kimlab.github.io
     #linkedin: alandoe
     #bitbucket:
     #twitter: '@webjeda'
