@@ -136,11 +136,11 @@ publications:
       Publications listed in chronological order
 
     papers:
-      - title: "THTRgene: Integrating Multiple Heterogeneous Time-series Data to Investigate Cold and Heat Stress Response Signaling Genes in Arabidopsis"
-        authors: "Hongryul Ahn, Inuk Jung, Heejoon Chae, Dongwon Kang, Sun Kim and Woosuk Jung"
-        conference: "IEEE International Conference on Bioinformatics and Biomedicine (BIBM), 2018 (Accepted)"
-        #link: ""
-
+      - title: "HTRgene: a computational method to perform the integrated analysis of multiple heterogeneous time-series data: case analysis of cold and heat stress response signaling genes in Arabidopsis"
+        authors: "Hongryul Ahn, Inuk Jung, Heejoon Chae, Dongwon Kang, Woosuk Jung and Sun Kim "
+        conference: "BMC Bioinformatics volume 20, Article number: 588 (2019)"
+        link: "https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-019-3072-2"
+      
       - title: "Comprehensive and critical evaluation of individualized pathway activity measurement tools on pan-cancer data"
         authors: "Sangsoo Lim, Sangseon Lee, Inuk Jung, Sungmin Rhee, Sun Kim"
         conference: "Briefings in Bioinformatics 2018, bby097, https://doi.org/10.1093/bib/bby097"
