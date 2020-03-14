@@ -135,6 +135,16 @@ publications:
       Publications listed in chronological order
 
     papers:
+      - title: "A non-negative matrix factorization based framework for the analysis of multi-class time-series single-cell RNA-seq data"
+        authors: "Inuk Jung, Joungmin Choi and Heejoon Chae"
+        conference: "IEEE Access, Volume 8, 2020"
+        link: "https://ieeexplore.ieee.org/abstract/document/9018223"
+        
+      - title: "Development of genetic quality tests for good manufacturing practice-compliant induced pluripotent stem cells and their derivatives"
+        authors: "Hye-Yeong Jo, Hyo-Won Han, Inuk Jung, Ji Hyeon Ju, Soon-Jung Park, Sunghwan Moon, Dongho Geum, Hyemin Kim, Han-Jin Park, Sun Kim, Glyn N Stacey, Soo Kyung Koo, Mi-Hyun Park, Jung-Hyun Kim"
+        conference: "Nature Scientific Reports, 10(1), 2020"
+        link: "https://www.nature.com/articles/s41598-020-60466-9"
+
       - title: "HTRgene: a computational method to perform the integrated analysis of multiple heterogeneous time-series data: case analysis of cold and heat stress response signaling genes in Arabidopsis"
         authors: "Hongryul Ahn, Inuk Jung, Heejoon Chae, Dongwon Kang, Woosuk Jung and Sun Kim "
         conference: "BMC Bioinformatics volume 20, Article number: 588 (2019)"
